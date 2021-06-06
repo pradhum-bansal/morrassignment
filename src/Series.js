@@ -9,12 +9,7 @@ const Series = () => {
     <>
     <Header name = 'Series'/>
     <div>
-        useEffect(()=>{
-            axios.get('https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json')
-            .then(response => {
-                
-            })
-        })
+        
     </div>
     <Footer/>
 </>
