@@ -5,17 +5,17 @@ import {
     faTwitter,
     faInstagram
   } from "@fortawesome/free-brands-svg-icons"
-  import './App.css'
+  import './footer.css'
   
 
-const footer =()=>
+const Footer =()=>
 {
 
    
 
     return(<div className = 'footer'>
         <p>
-        <span>Home  | Terms and Condition | Privacy Policy | Collection Statement | Help | Manage Account</span></p>
+        <span >Home  | Terms and Condition | Privacy Policy | Collection Statement | Help | Manage Account</span></p>
         <p> Copyright c 2016 DEMO Streaming. All Rights Reserved</p>
         <FontAwesomeIcon icon ={faFacebook} />  <FontAwesomeIcon icon ={faTwitter} />  <FontAwesomeIcon icon ={faInstagram} /> 
       <div> <img className ='img2' src= './images/appstore.png' alt="pic" />
@@ -25,4 +25,4 @@ const footer =()=>
         </div>
     )
 }
-export default footer
+export default Footer

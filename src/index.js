@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Series from './Series'
-import Movies from './Movies';
+import Series from './components/series/Series';
+import Movies from './components/movies/Movies';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Series/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
